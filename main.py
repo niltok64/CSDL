@@ -35,7 +35,7 @@ def download():
 
 app = App(title="Cave Story Downloader")
 
-cavestorypic = Picture(app, image="Cave_Story_logo.png", width=200, height=200)
+cavestorypic = Picture(app, image="logo.png", width=200, height=200)
 version = ButtonGroup(app, options=[["Doukutsu Monogatari", "DC"], ["Cave Story English Patch", "EP"], ["Cave Story English Pre-Patched", "PP"]], selected="DC")
 download_button = PushButton(app, command=download, text="Download and Extract")
 
