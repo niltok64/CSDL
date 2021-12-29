@@ -1,3 +1,4 @@
+#  Cave Story Downloader
 ![Cave Story Downloader logo](logo.png)<br>
 This is a downloader for Cave Story written in Python.
 
