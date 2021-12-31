@@ -7,3 +7,4 @@ This was just made as a short Python program and shouldn't be used commercially.
 ## Updates
 - v1.0: Initial version
 - v1.1: Now automatically extracts downloaded zip files
+- v1.2: Adds deluxe pack options
