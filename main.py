@@ -163,8 +163,7 @@ download_button_dx = PushButton(app, command=download_dx, text="Download Deluxe 
 lang_option_button = PushButton(app, command=open_window, text="Language patch options")
 
 # window
-patch_choice = ButtonGroup(window, options=[["Simplified Chinese", "CS"], ["Dutch", "D"], ["French", "Fr"], ["German", "G"], ["Italian", "It"], ["Korean", "K"], ["Lithuanian", "L"],
-["Polish", "Po"], ["Portuguese", "Por"], selected="CS")
+patch_choice = ButtonGroup(window, options=[["Simplified Chinese", "CS"], ["Dutch", "D"], ["French", "Fr"], ["German", "G"], ["Italian", "It"], ["Korean", "K"], ["Polish", "Po"], ["Portuguese", "Por"]], selected="CS")
 download_lang_button = PushButton(window, command=download_lang, text="Download")
 close = PushButton(window, command=close_window, text="Close")
 
