@@ -1,8 +1,8 @@
-![Cave Story Downloader logo](logo.png)<br>
-#  Cave Story Downloader
 ### !!!!!!!!!!!!!!!!!!!!!!!!<br>
 ## CSD IS NOW ON ITCH!!! CHECK IT OUT [HERE](https://imsad2.itch.io/cave-story-downloader)<br>
 ### !!!!!!!!!!!!!!!!!!!!!!!!<br>
+![Cave Story Downloader logo](logo.png)<br>
+#  Cave Story Downloader
 This is a downloader for Cave Story written in Python.
 
 This was just made as a short Python program and shouldn't be used commercially. If you want to download Cave Story, you should get it from [cavestory.org](https://www.cavestory.org/download/cave-story.php).
