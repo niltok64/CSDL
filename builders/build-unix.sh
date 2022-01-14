@@ -4,6 +4,5 @@ echo REMEMBER DAT U NEED PYTHON ON DEM PATH LMAO
 pip install pyinstaller
 cd ..
 mkdir compile
-pyinstaller main.py --onefile -w --name CaveStoryDL --distpath compile
+pyinstaller main.py --onefile -w --name CaveStoryDL --distpath compile --add-data "logo.png"
 echo DONE BUILDING LMAO
-echo REMEMBER TO PUT DA LOGO IN COMPILE FOLDER AND FROLIC YOOO
