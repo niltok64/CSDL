@@ -1,12 +1,13 @@
-from tkinter import Frame
+from tkinter import LabelFrame
 from . import utilities as utils
-from .base import ContainerWidget
+from .base import ContainerTextWidget
 
-class Box(ContainerWidget):
+class TitleBox(ContainerTextWidget):
 
     def __init__(
         self,
         master,
+        text,
         layout="auto",
         grid=None,
         align=None,
@@ -14,15 +15,18 @@ class Box(ContainerWidget):
         enabled=None,
         width=None,
         height=None,
-        border=None):
+        border=2):
         """
-        Creates a Box
+        Creates a TitleBox
 
         :param Container master:
-            The Container (App, Box, etc) the Box will belong too.
+            The Container (App, Box, etc) the TitleBox will belong too.
+
+        :param string text:
+            The text to be displayed on the box title.
 
         :param string layout:
-            The layout the Box should use "auto" or "grid. Defaults to "auto".
+            The layout the TitleBox should use "auto" or "grid. Defaults to "auto".
 
         :param List grid:
             Grid co-ordinates for the widget, required if the master layout
@@ -51,17 +55,16 @@ class Box(ContainerWidget):
             size. If not `None`, both the width and height need to be set.
 
         :param int border:
-            Sets the border thickness. `0` or `False` is no border. `True` or 
-            value > 1 sets a border. The default is `None`.
+            Sets the border thickness. `0` or `False` is no border. `True` or
+            value > 1 sets a border. The default is `2`.
         """
-        tk = Frame(master.tk)
+        description = "[TitleBox] object (may also contain other objects)"
+
+        tk = LabelFrame(master.tk, text=str(text), bd=border)
 
         super().__init__(master, tk, layout, grid, align, visible, enabled, width, height)
 
         self.resize(width, height)
-
-        if border is not None:
-            self.border = border
 
     @property
     def border(self):
@@ -72,24 +75,22 @@ class Box(ContainerWidget):
         `True` or value > 1 sets a border
 
         """
-        return self._get_tk_config("highlightthickness")
+        return self._get_tk_config("bd")
 
     @border.setter
     def border(self, value):
-        self.set_border(value, "black")
+        self._set_tk_config("bd", value)
 
-    def set_border(self, thickness, color="black"):
+    @property
+    def text(self):
         """
-        Sets the border thickness and color.
-
-        :param int thickness:
-            The thickenss of the border.
-
-        :param str color:
-            The color of the border.
+        Sets of returns the text used in the title
         """
-        self._set_tk_config("highlightthickness", thickness)
-        self._set_tk_config("highlightbackground", utils.convert_color(color))
+        return self._get_tk_config("text")
+
+    @text.setter
+    def text(self, value):
+        self._set_tk_config("text", value)
 
     def resize(self, width, height):
         """
@@ -102,5 +103,5 @@ class Box(ContainerWidget):
             The height of the widget.
         """
         self._set_propagation(width, height)
-        
+
         super().resize(width, height)

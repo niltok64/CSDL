@@ -1,7 +1,7 @@
 from . import utilities as utils
 
 
-class EventData():
+class EventData:
 
     def __init__(self, widget, tk_event):
         """
@@ -63,7 +63,20 @@ class EventData():
         the display when the event occurred.
         """
         return self._tk_event.y_root
+    
+    @property
+    def width(self):
+        """
+        The new width of the widget when re-configured.
+        """
+        return self._tk_event.width
 
+    @property
+    def height(self):
+        """
+        The new height of the widget when re-configured.
+        """
+        return self._tk_event.height
 
 class EventCallback():
 
@@ -146,7 +159,7 @@ class EventCallback():
         return self._tk_event
 
 
-class EventManager():
+class EventManager:
 
     def __init__(self, widget, *tks):
         """
