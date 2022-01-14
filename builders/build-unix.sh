@@ -1,3 +1,4 @@
+#!/bin/sh
 echo BUILDING DEM CODE 4 UNIX LOL
 echo REMEMBER DAT U NEED PYTHON ON DEM PATH LMAO
 pip install pyinstaller
