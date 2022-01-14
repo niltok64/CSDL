@@ -8,6 +8,8 @@ This is a downloader for Cave Story written in Python.
 This was just made as a short Python program and shouldn't be used commercially. If you want to download Cave Story, you should get it from [cavestory.org](https://www.cavestory.org/download/cave-story.php).
 
 ## Screenshots
+![Screenshot of main window](ITCH/screenshot1.png)
+![Screenshot of language patch window](ITCH/screenshot2.png)
 ## Updates
 - v1.0: Initial version
 - v1.1: Now automatically extracts downloaded zip files
