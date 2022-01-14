@@ -1,5 +1,5 @@
 ### !!!!!!!!!!!!!!!!!!!!!!!!<br>
-## CSD IS NOW ON ITCH!!! CHECK IT OUT [HERE](https://imsad2.itch.io/cave-story-downloader)<br>
+## CSDL IS NOW ON ITCH!!! CHECK IT OUT [HERE](https://imsad2.itch.io/cave-story-downloader)<br>
 ### !!!!!!!!!!!!!!!!!!!!!!!!<br>
 ![Cave Story Downloader logo](logo.png)<br>
 #  Cave Story Downloader
