@@ -1,9 +1,10 @@
 ---
 name: Bug report
 about: epic template for bug
-title: ''
+title: "[BUG]"
 labels: ''
 assignees: ''
+
 ---
 
 **what da bug doin**
