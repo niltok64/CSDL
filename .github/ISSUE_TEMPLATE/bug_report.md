@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: epic template for bug
+about: bug? put it 'ere
 title: "[BUG]"
 labels: ''
 assignees: ''
