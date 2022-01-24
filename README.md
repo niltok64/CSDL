@@ -1,8 +1,6 @@
 ![Cave Story Downloader logo](logo.png)<br>
 #  Cave Story Downloader
-This is a downloader for Cave Story written in Python.
-
-This was just made as a short Python program and shouldn't be used commercially. If you want to download Cave Story, you should get it from [cavestory.org](https://www.cavestory.org/download/cave-story.php).
+This is an unofficial downloader for Cave Story written in Python. This software is not endorsed by Studio Pixel or Nicalis.
 
 Itch.io link: https://imsad2.itch.io/cave-story-downloader
 ## Updates
@@ -10,6 +8,7 @@ Itch.io link: https://imsad2.itch.io/cave-story-downloader
 - v1.1: Now automatically extracts downloaded zip files
 - v1.2: Adds deluxe pack options
 - v1.3(pre): Adds language patch options, although the rar extraction was faulty so all languages using RAR files are left out.
+- v1.3.1(pre): A couple of bug fixes, including a fix to the terminal appearing when opening the EXE.
 ## Screenshots
 ![Screenshot of main window](ITCH/screenshot1.png)
 ![Screenshot of language patch window](ITCH/screenshot2.png)
