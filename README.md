@@ -1,4 +1,4 @@
-![Cave Story Downloader logo](logo.png)<br>
+![Cave Story Downloader logo](src/logo.png)<br>
 #  Cave Story Downloader
 This is an unofficial downloader for Cave Story written in Python. This software is not endorsed by Studio Pixel or Nicalis.
 
