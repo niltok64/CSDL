@@ -1,6 +1,6 @@
 ![Cave Story Downloader logo](src/logo.png)<br>
 #  Cave Story Downloader
-This is an unofficial downloader for Cave Story written in Python. This software is not endorsed by Studio Pixel or Nicalis.
+This is an unofficial downloader for Cave Story written in Python. This project is not endorsed by Studio Pixel or Nicalis.
 
 Itch.io link: https://imsad2.itch.io/cave-story-downloader
 ## Updates
