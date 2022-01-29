@@ -5,5 +5,5 @@ pip install pyinstaller
 cd ..
 cd src
 mkdir compile
-pyinstaller main-unix.py --onefile -w --name CaveStoryDL --distpath compile --add-data "logo-unix.png" --add-data "tempfolder/"
+pyinstaller main-unix.py --onefile -w --name CaveStoryDL --distpath compile --add-data "logo.png" --add-data "tempfolder/"
 echo "DONE BUILDING LMAO"

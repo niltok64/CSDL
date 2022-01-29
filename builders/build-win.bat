@@ -5,6 +5,6 @@ pip install pyinstaller
 cd ..
 cd src
 mkdir compile
-pyinstaller main-windows.py --onefile -w --name CaveStoryDL --distpath compile --add-data "logo-win.png" --add-data "tempfolder/"
+pyinstaller main-windows.py --onefile -w --name CaveStoryDL --distpath compile --add-data "logo.png" --add-data "tempfolder/"
 ECHO DONE BUILDING LMAO
 PAUSE
