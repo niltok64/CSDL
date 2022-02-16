@@ -2,7 +2,7 @@
 #  Cave Story Downloader
 This is an unofficial downloader for Cave Story written in Python. This project is not endorsed by Studio Pixel or Nicalis.
 
-Itch.io link: https://imsad2.itch.io/cave-story-downloader
+Itch.io link: https://niltok.itch.io/cave-story-downloader
 ## Updates
 - v1.0: Initial version
 - v1.1: Now automatically extracts downloaded zip files
