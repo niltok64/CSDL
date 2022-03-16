@@ -1,6 +1,6 @@
 ![Cave Story Downloader logo](src/logo.png)<br>
 #  Cave Story Downloader
-[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![CI](https://github.com/niltok64/CSDL/actions/workflows/main.yml/badge.svg)](https://github.com/niltok64/CSDL/actions/workflows/main.yml)[![pages-build-deployment](https://github.com/niltok64/CSDL/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/niltok64/CSDL/actions/workflows/pages/pages-build-deployment)<br>
 This is an unofficial downloader for Cave Story written in Python. This project is not endorsed by Studio Pixel or Nicalis.
 
