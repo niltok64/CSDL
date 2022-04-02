@@ -151,7 +151,6 @@ app = App(title="Cave Story Downloader", height=620, width=500)
 window = Window(app, title="Language Patch options", height=550, width=500)
 close_window()
 
-cavestorypic = Picture(app, image="src/logo.png")
 
 # app
 normal_text = Text(app, text="Standard version")
