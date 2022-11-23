@@ -4,7 +4,7 @@
 [![CI](https://github.com/niltok64/CSDL/actions/workflows/main.yml/badge.svg)](https://github.com/niltok64/CSDL/actions/workflows/main.yml)[![pages-build-deployment](https://github.com/niltok64/CSDL/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/niltok64/CSDL/actions/workflows/pages/pages-build-deployment)<br>
 This is an unofficial downloader for Cave Story written in Python. This project is not endorsed by Studio Pixel or Nicalis.
 
-Itch.io link: https://niltok.itch.io/cave-story-downloader
+Itch.io link: [https://niltok.itch.io/cave-story-downloader](https://niltok.itch.io/cave-story-downloader)
 ## Updates
 - v1.0: Initial version
 - v1.1: Now automatically extracts downloaded zip files
